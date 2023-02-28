@@ -11,4 +11,12 @@ Select * from film where not (length > 50) and not (rental_rate = '2.99' or rent
 
 Select * from film where replacement_cost between 12.99 and 16.99; 
 Select * from actor where first_name in ('Penelope','Nick','Ed');
-3-) Select * from film where (rental_rate in ('0.99','2.99','4.99')) and (replacement_cost in ('12.99','15.99','28.99'));
+Select * from film where (rental_rate in ('0.99','2.99','4.99')) and (replacement_cost in ('12.99','15.99','28.99'));
+
+
+ÖDEV-3
+
+Select * from country where country LIKE 'A%a'; 
+Select * from country where country LIKE '______n';
+Select * from film where title ILIKE 't&t&t%t%'; 
+Select * from film where (title like 'C%') And (lenght > 90 ) and (rental_rate = 2.99);

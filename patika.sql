@@ -20,3 +20,12 @@ Select * from country where country LIKE 'A%a';
 Select * from country where country LIKE '______n';
 Select * from film where title ILIKE 't&t&t%t%'; 
 Select * from film where (title like 'C%') And (lenght > 90 ) and (rental_rate = 2.99);
+
+
+
+Ödev-4
+Select DISTINCT replacement_cost from film;
+Select COUNT (DISTINCT replacement_cost) from film;
+Select Count (*) from film where (title like 'T%') and (rating = 'G');
+Select Count (*) from country where country like '-----';
+Select Count (*) from city where city Ilike '%R';

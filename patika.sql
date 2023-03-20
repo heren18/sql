@@ -24,6 +24,7 @@ Select * from film where (title like 'C%') And (lenght > 90 ) and (rental_rate =
 
 
 Ödev-4
+
 Select DISTINCT replacement_cost from film;
 Select COUNT (DISTINCT replacement_cost) from film;
 Select Count (*) from film where (title like 'T%') and (rating = 'G');
@@ -48,3 +49,15 @@ LIMIT 5;
 where store_id= 1 
 order by last_name desc 
 limit 4;
+
+
+Ödev-6 
+
+1-) Select AVG(rental_rate) 
+From film; 
+
+2-) Select Count(*) from film where title like 'C%';
+
+3-) Select MAX(lenght) from film where rantel_rate = 0.99;
+
+4-) Select Count(Distinct(replacement_cost)) from film where length > 150;

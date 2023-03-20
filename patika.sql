@@ -29,3 +29,22 @@ Select COUNT (DISTINCT replacement_cost) from film;
 Select Count (*) from film where (title like 'T%') and (rating = 'G');
 Select Count (*) from country where country like '-----';
 Select Count (*) from city where city Ilike '%R';
+
+
+Ödev-5
+
+1-) Select * from film
+where title like '%n'
+order by length desc
+limit 5;
+
+2-) Select * from film 
+where title like '%n'
+order by lenght
+offset 5
+LIMIT 5;
+  
+3-) Select * from customer
+where store_id= 1 
+order by last_name desc 
+limit 4;
